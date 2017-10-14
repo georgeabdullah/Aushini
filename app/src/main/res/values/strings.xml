@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Aushini</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">Next</string>
+    <string name="skip">Register</string>
+    <string name="start">GOT IT</string>
+
+    <string name="intro_text">Aushini is the app that will help you to meet with your speaker, Join learning from your mobile devices, remind you with the lecture, and so on.
+    Click THIS to skip intro and open registration page, or click NEXT to know more about the features. </string>
+
+    <string name="slide_1_title">Finder</string>
+    <string name="slide_1_desc">You can find title, location, speaker or even learning status. This is amazing !</string>
+
+    <string name="slide_2_title">Instant Share</string>
+    <string name="slide_2_desc">Share now is easy just with click a single button. And choose the destination you want.</string>
+
+    <string name="slide_3_title">Reminder</string>
+    <string name="slide_3_desc">Dont be worry coming late to watch the learning. Easily you can decide the time and we will remind you.  </string>
+
+    <string name="slide_4_title">Location</string>
+    <string name="slide_4_desc">Find the learning location now can found in our features. You can also open it in your favorite navigation app</string>
+
+    <string name="slide_5_title">Download</string>
+    <string name="slide_5_desc">You can download our content and watch or listen it right in your mobile devices. </string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
 </resources>
