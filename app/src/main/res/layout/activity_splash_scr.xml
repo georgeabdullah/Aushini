@@ -6,13 +6,41 @@
     android:layout_height="match_parent"
     tools:context="com.syameela.aushini.splash_scr">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="30dp"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="200dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/aushini_icon"
+        android:tint="@color/color_auDefaultGreenDark"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="223dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/imgLogo"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginStart="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo"
+        app:layout_constraintVertical_bias="0.082" />
 
 </android.support.constraint.ConstraintLayout>

@@ -2,22 +2,31 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.syameela.aushini">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/aushini_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/aushini_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".splash_scr">
+        <activity
+            android:theme="@style/AuDefaultTheme"
+            android:name=".splash_scr">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".introduction_scr" />
-        <activity android:name=".welcome_scr"></activity>
+        <activity
+            android:theme="@style/AuDefaultTheme"
+            android:name=".introduction_scr" />
+        <activity
+            android:theme="@style/AuDefaultTheme"
+            android:name=".welcome_scr"></activity>
     </application>
 
 </manifest>
