@@ -15,4 +15,10 @@
         <item name="colorPrimaryDark">@color/color_auDefaultGreenDark</item>
     </style>
 
+    <style name="AuDefaultTheme_register.scr"    parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary_register.scr</item>
+        <item name="colorAccent">@color/colorAccent_register.scr</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_register.scr</item>
+    </style>
+
 </resources>

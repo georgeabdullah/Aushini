@@ -2,8 +2,8 @@
     <string name="app_name">Aushini</string>
     <string name="title_activity_welcome">Home Screen</string>
     <string name="next">Next</string>
-    <string name="skip">Register</string>
-    <string name="start">GOT IT</string>
+    <string name="skip">Skip This</string>
+    <string name="start">Start</string>
 
     <string name="intro_text">Aushini is the app that will help you to meet with your speaker, Join learning from your mobile devices, remind you with the lecture, and so on.
     Click THIS to skip intro and open registration page, or click NEXT to know more about the features. </string>

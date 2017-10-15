@@ -13,8 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:theme="@style/AuDefaultTheme"
-            android:name=".splash_scr">
+            android:name=".splash_scr"
+            android:theme="@style/AuDefaultTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,11 +22,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:theme="@style/AuDefaultTheme"
-            android:name=".introduction_scr" />
+            android:name=".introduction_scr"
+            android:theme="@style/AuDefaultTheme" />
         <activity
-            android:theme="@style/AuDefaultTheme"
-            android:name=".welcome_scr"></activity>
+            android:name=".welcome_scr"
+            android:theme="@style/AuDefaultTheme" />
+        <activity
+            android:name=".register_scr"
+            android:theme="@style/AuDefaultTheme_register.scr"></activity>
+        <activity android:name=".question_scr"></activity>
     </application>
 
 </manifest>

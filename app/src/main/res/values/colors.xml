@@ -10,6 +10,10 @@
     <color name="z_onclick_color">#0004579c</color>
     <!-- TODO: Zanky menubottombar-->
 
+    <color name="colorPrimary_register.scr">#109D59</color>
+    <color name="colorPrimaryDark_register.scr">#0c844a</color>
+    <color name="colorAccent_register.scr">#23a409</color>
+
     <color name="white">#ffffff</color>
     <color name="white_trans">#00ffffff</color>
     <color name="primary_material_dark_1">#0f9d58</color>
@@ -48,6 +52,7 @@
     <color name="dot_light_screen3">#F6C358</color>
     <color name="dot_light_screen4">#218b3b</color>
     <color name="dot_light_screen5">#FC6E51</color>
+    <color name="au_DefaultGreyColor">#f1f1f1</color>
 
     <array name="array_dot_active">
         <item>@color/dot_light_screen1</item>

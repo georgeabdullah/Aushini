@@ -120,7 +120,7 @@ public class welcome_scr extends AppCompatActivity {
 
     private void launchHomeScreen() {
         prefManager.setFirstTimeLaunch(false);
-        startActivity(new Intent(welcome_scr.this, introduction_scr.class));
+        startActivity(new Intent(welcome_scr.this, register_scr.class));
         finish();
     }
 
