@@ -29,8 +29,14 @@
             android:theme="@style/AuDefaultTheme" />
         <activity
             android:name=".register_scr"
-            android:theme="@style/AuDefaultTheme_register.scr"></activity>
-        <activity android:name=".question_scr"></activity>
+            android:theme="@style/AuDefaultTheme_register.scr" />
+        <activity android:name=".question_scr" />
+        <activity
+            android:label="Congratulation"
+            android:theme="@style/AuDefaultTheme"
+            android:name=".congratulation_scr">
+
+        </activity>
     </application>
 
 </manifest>

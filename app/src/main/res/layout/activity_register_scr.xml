@@ -39,8 +39,10 @@
                     android:id="@+id/imageView16"
                     android:layout_width="113dp"
                     android:layout_height="33dp"
-                    android:layout_gravity="left|start"
-                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
                     android:layout_marginStart="2dp"
                     android:tint="@color/color_auDefaultLogoColor"
                     app:srcCompat="@drawable/aushini_icon" />
@@ -55,13 +57,13 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_weight="1.13"
+                    android:layout_marginTop="0dp"
                     android:fontFamily="sans-serif"
                     android:gravity="left"
                     android:text="Sign Up"
+                    android:textAlignment="center"
                     android:textColor="@color/color_auDefaultGreyText"
-                    android:textSize="24sp"
+                    android:textSize="30sp"
                     android:textStyle="bold"
                     android:typeface="serif" />
 
@@ -77,7 +79,8 @@
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="0dp"
                     android:layout_weight="1.13"
-                    android:text="Type your name choose gender"
+                    android:text=" Type your name choose gender"
+                    android:textAlignment="center"
                     android:textColor="@color/color_auDefaultGreyText"
                     android:textSize="14sp" />
 
@@ -120,7 +123,8 @@
                         android:fontFamily="sans-serif"
                         android:text="Male"
                         android:textColor="@color/color_auDefaultGreyText"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
                     <RadioButton
                         android:id="@+id/radio_Female"
@@ -130,7 +134,8 @@
                         android:fontFamily="sans-serif"
                         android:text="Female"
                         android:textColor="@color/color_auDefaultGreyText"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
                 </RadioGroup>
 
                 <LinearLayout
